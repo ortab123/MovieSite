@@ -1,0 +1,21 @@
+.header-container {
+  padding: 0 10%;
+}
+.filters-container {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.filter-dropdown {
+  height: 32px;
+  width: 100px;
+  cursor: pointer;
+  margin: 0 3px;
+}
+
+.search-bar-container {
+  flex-grow: 1;
+}

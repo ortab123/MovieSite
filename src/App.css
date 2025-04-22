@@ -1,24 +1,14 @@
-.website-title{
+.website-title {
   text-align: center;
 }
 
-.Header{
+.Header {
   background-color: #eee;
 }
 
-.search-bar-container{
-  padding-top: 20px;
-  width: 40%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 150px ;
-}
-
-.movie-card{
-height: 600px;
-text-align: center;
+.movie-card {
+  height: 600px;
+  text-align: center;
 }
 
 /* .movie-container{
@@ -27,13 +17,13 @@ text-align: center;
   justify-content: center;
 } */
 
-.movie-container{
+.movie-container {
   display: grid;
-  grid-template-columns: repeat(4 ,1fr);
+  grid-template-columns: repeat(4, 1fr);
   column-gap: 30px;
-  row-gap: 10px; 
+  row-gap: 10px;
   justify-content: center;
-  padding:0 10%;
+  padding: 0 10%;
 }
 
 .poster-wrapper {
@@ -41,7 +31,7 @@ text-align: center;
   width: 100%;
 }
 
-.favorite-icon{
+.favorite-icon {
   position: absolute;
   top: -10px;
   right: -10px;
@@ -85,8 +75,7 @@ text-align: center;
   }
 }
 
-
-.movie-poster{
+.movie-poster {
   height: 400px;
   width: 100%;
   border-radius: 10px;
